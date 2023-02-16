@@ -16,6 +16,9 @@ for (const btn of btnsAll) {
         else if(btn.innerText === this.className){
             screen.value = screen.value+'/';
         }
+        else if(btn.innerText === '='){
+            screen.value = eval(screen.value);
+        }
         else{
             screen.value = screen.value+btn.innerText;
         }

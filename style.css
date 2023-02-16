@@ -11,6 +11,7 @@ body{
     margin: auto;
 }
 .credit{
+    text-align: center;
     line-height: 10px;
     padding-bottom: 80px;
 }
@@ -27,6 +28,7 @@ table{
 input{
     height: 100px;
     width: 359px;
+    margin: 0 auto;
     font-size: 60px;
     text-align: right;
     background-color: rgb(206, 206, 206);
@@ -67,4 +69,17 @@ button{
 }
 .extra{
     padding-top: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 359px;
+        margin: 0 auto;
+    }
+    button{
+        width: 100%;
+    }
+    input{
+        width: 97%;
+    }
 }
